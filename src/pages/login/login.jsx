@@ -17,6 +17,7 @@ class Login extends Component {
     // 阻止事件的默认行为: 阻止表单的提交
     e.preventDefault()
 
+    
     // 取出输入的相关的数据
     // const form = this.props.form
     // const values = form.getFieldsValue()
