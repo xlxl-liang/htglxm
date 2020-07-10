@@ -556,4 +556,5 @@
     4). 面试题:
         组件的哪个生命周期勾子能实现组件优化?
         PureComponent的原理?
-        区别Component与PureComponent?
+        区别Component与PureComponent?#   h t g l x m  
+ 
