@@ -57,10 +57,10 @@ class Login extends Component {
     对密码进行自定义验证
   */
   validatePwd = (rule, value, callback) => {
-    // 1).必须输入
-    // 2).必须大于等于4位
-    // 3).必须小于等于12位
-    // 4).必须是英文、数字或下划线组成
+    // 1).密码必须输入
+    // 2).密码必须大于等于4位
+    // 3).密码必须小于等于12位
+    // 4).密码必须是英文、数字或下划线组成
     value = value.trim()
     if (!value) {
       callback('密码必须输入')
