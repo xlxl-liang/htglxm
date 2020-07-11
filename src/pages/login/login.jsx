@@ -55,7 +55,7 @@ class Login extends Component {
   }
 
   /* 
-    对密码进行自定义验证
+    对密码进行   自定义验证
   */
   validatePwd = (rule, value, callback) => {
     // 1).密码必须输入
